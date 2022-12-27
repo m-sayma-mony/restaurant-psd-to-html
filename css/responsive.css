@@ -1,0 +1,346 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px){
+
+/*nav bar part start*/
+.navbar{
+	padding-top: 10px;
+}
+.navbar-brand img{
+	padding-left: 5px;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link,
+.nav-icon{
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 2px 3px 3px;
+}
+/*nav bar part end*/
+
+/*banner part start*/
+#banner{
+	padding-bottom: 50px;
+}
+.banner-content h1{
+	font-size: 30px;
+	padding: 50px 0 40px 0;
+}
+.banner-btn li a{
+	padding: 14px 20px;
+	font-size: 12px;
+}
+/*banner part end*/
+
+/*right food part start*/
+#right-food{
+	padding: 50px 0;
+}
+.r-f-content h4{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.r-f-content p {
+    padding: 20px 0 30px 0px;
+    font-size: 14px;
+}
+.chafe-img img{
+	padding-left: 60px;
+}
+.r-f-platter img{
+	display: none;
+}
+/*right food part end*/
+
+/*ingredient part start*/
+.ingredient-main{
+	padding: 70px 0px;
+}
+.ingredient-content h4{
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+.ingredient-content p {
+    font-size: 14px;
+    padding: 20px 0 52px 0;
+}
+.ingredient-img ul li{
+	padding: 0 10px;
+}
+/*ingredient part end*/
+
+/*dishes part start*/
+#dishes{
+	padding: 70px 0;
+}
+.dishes-heading h4 {
+    font-size: 32px;
+}
+.dis-name-price h4 {
+    font-size: 19px;
+}
+.dis-discript p {
+    font-size: 12px;
+}
+/*dishes part end*/
+
+/*reviews part start*/
+.carousel-inner{
+	padding: 80px 0px 100px;
+}
+.reviews-heading h4 {
+    font-size: 32px;
+}
+.carousel-item p {
+    font-size: 19px;
+    padding: 0 10px;
+}
+/*reviews part end*/
+
+/*contact part start*/
+.contact-img-1{
+	display: none;
+}
+.contact-content{
+	padding: 0 0px;
+}
+.contact-form{
+	padding: 0 0px;
+	text-align: center;
+}
+.contact-heading h4 {
+    font-size: 29px;
+    padding-bottom: 10px;
+}
+.contact-content p{
+	padding-top: 10px;
+	font-size: 14px;
+}
+.button-div input {
+    padding: 12px 50px;
+    font-size: 16px;
+}
+form input {
+   width: 286px;
+}
+/*contact part end*/
+
+/*footer part start*/
+footer{
+	padding: 30px 0;
+}
+.footer-heading h4 {
+    padding-top: 30px;
+}
+.footer-content p {
+    font-size: 14px;
+}
+.footer-card{
+	padding-top: 30px;
+}
+.footer-icon{
+	padding-top: 30px !important;
+}
+/*footer part end*/
+
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px){ 
+
+/*nav bar part start*/
+.navbar{
+	padding-top: 10px;
+}
+.navbar-brand img{
+	padding-left: 5px;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link,
+.nav-icon{
+	font-size: 21px;
+	text-align: center;
+	text-shadow: 2px 3px 3px;
+}
+/*nav bar part end*/
+
+/*banner part start*/
+#banner{
+	padding-bottom: 70px;
+}
+.banner-content h1{
+	font-size: 42px;
+	padding: 50px 0 40px 0;
+}
+/*banner part end*/
+
+/*right food part start*/
+.chafe-img img{
+	padding-left: 80px;
+}
+/*right food part end*/
+
+/*ingredient part start*/
+.ingredient-main {
+    padding: 70px 18px;
+}
+/*ingredient part end*/
+
+/*reviews part start*/
+.carousel-inner {
+    padding: 80px 18px 100px;
+}
+/*reviews part end*/
+
+/*contact part start*/
+.contact-img-1{
+	margin-bottom: 20px;
+}
+.contact-heading h4 {
+    padding-bottom: 10px;
+}
+.contact-content p{
+	padding-top: 10px;
+}
+form input {
+    height: 53px;
+    width: 226px;
+}
+.contact-content {
+    padding: 0 18px;
+}
+.contact-form {
+    padding: 0 18px;
+}
+/*contact part end*/
+
+/*footer part start*/
+footer{
+	padding: 30px 0;
+}
+.footer-heading h4 {
+    padding-top: 30px;
+}
+.footer-content p {
+    font-size: 16px;
+}
+.footer-card{
+	padding-top: 30px;
+}
+.footer-icon{
+	padding-top: 30px !important;
+}
+/*footer part end*/
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+
+/*nav bar part start*/
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link,
+.nav-icon{
+	text-align: center;
+}
+/*nav bar part end*/
+
+/*right food part start*/
+.r-f-platter{
+	margin-top: 60%;
+}
+/*right food part end*/
+
+/*ingredient part start*/
+.ingredient-main{
+	padding: 70px 0px;
+}
+/*ingredient part end*/
+
+/*reviews part start*/
+.carousel-inner {
+    padding: 80px 0px 100px;
+}
+/*reviews part end*/
+
+/*contact part start*/
+.contact-img-1{
+	margin-top: 113%;
+}
+.contact-content {
+    padding: 0 0px;
+}
+.contact-form {
+    padding: 0 0px;
+}
+form input {
+    height: 53px;
+    width: 168px;
+}
+.button-div input {
+    padding: 12px 17px;
+}
+/*contact part end*/
+
+/*footer part start*/
+.footer-content p {
+    font-size: 14px;
+}
+.footer-card{
+	padding-top: 145px;
+}
+.footer-icon{
+	padding-top: 145px !important;
+}
+/*footer part end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+/*ingredient part start*/
+.ingredient-main {
+    padding: 70px 30px;
+}
+/*ingredient part end*/
+
+/*reviews part start*/
+.carousel-inner {
+    padding: 80px 30px 100px;
+}
+/*reviews part end*/
+
+/*contact part start*/
+.contact-content {
+    padding: 0 10px;
+}
+.contact-form {
+    padding: 0 10px;
+}
+form input {
+    height: 49px;
+    width: 179px;
+}
+.button-div input {
+    padding: 12px 41px;
+}
+/*contact part end*/
+
+/*footer part start*/
+.footer-card{
+	padding-top: 87px;
+}
+.footer-icon{
+	padding-top: 87px !important;
+}
+/*footer part end*/
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px){ ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }

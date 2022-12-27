@@ -1,0 +1,376 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	/*font-family: 'Gentium Book Basic', serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Yeseva One', cursive;*/
+}
+ul, ol{
+	list-style-type: none;
+	padding: 0 !important;
+}
+a{
+	text-decoration: none !important;
+}
+
+/*navbar and banner part start*/
+
+/*navbar part start*/
+.navbar-nav .nav-item{
+	padding: 0 10px;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link{
+	color: white;
+	font-size: 21px;
+	font-weight: 700;
+	font-family: 'Gentium Book Basic', serif;
+	transition: all linear .3s;
+}
+.navbar-nav .nav-item .nav-link.active:hover,
+.navbar-nav .nav-item .nav-link:hover{
+	color: #dab33e;
+	transition: all linear .3s;
+}
+.nav-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-icon li a{
+	color: #dab33e !important;
+	font-size: 21px;
+	font-weight: 700;
+	transition: all linear .3s;
+}
+.nav-icon li a:hover{
+	color: white !important;
+	transition: all linear .3s;
+}
+.nav-icon li{
+	padding: 0 7px;
+	padding-top: 13px;
+}
+/*navbar part end*/
+
+/*banner part start*/
+#banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+.banner-content{
+	text-align: center;
+}
+.banner-content h1{
+	color: white;
+	font-size: 90px;
+	font-weight: 400;
+	font-family: 'Yeseva One', cursive;
+	padding: 100px 0 40px 0;
+}
+.banner-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+.banner-btn li a{
+	color: white !important;
+	padding: 22px 51px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid white;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	transition: all linear .3s;
+}
+.banner-btn li a:hover{
+	background-color: rgba(0, 0, 0,0.6);
+	border: 1px solid black;
+	transition: all linear .3s;
+}
+.banner-btn li{
+	padding: 0 10px;
+}
+/*banner part end*/
+
+/*navbar and banner part end*/
+
+/*right food part start*/
+#right-food{
+	background-image: url(../images/right-food-overlay.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 73px 0;
+}
+.r-f-main{
+	padding: 32px 0;
+	text-align: center;
+}
+.r-f-content h4{
+	font-size: 36px;
+	font-weight: 400;
+	color: #cc9900;
+	font-family: 'Yeseva One', cursive;
+	padding-bottom: 20px;
+}
+.r-f-content p{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	color: #4c4c4c;
+	padding: 34px 0 52px 0;
+	line-height: 30px;
+}
+/*right food part end*/
+
+/*ingredient part start*/
+#ingredients{
+	background-image: url(../images/ingredients.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+.ingredient-main{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	padding: 70px 80px;
+}
+.ingredient-content h4{
+	font-size: 36px;
+	font-weight: 400;
+	color: white;
+	font-family: 'Yeseva One', cursive;
+	padding-bottom: 20px;
+}
+.ingredient-content p{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	padding: 34px 0 52px 0;
+	line-height: 27px;
+}
+.ingredient-img ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ingredient-img ul li{
+	padding: 0 15px;
+}
+/*ingredient part end*/
+
+/*dishes part start*/
+#dishes{
+	background-image: url(../images/right-food-overlay.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+.dishes-main{
+	text-align: center;
+}
+.dishes-heading h4{
+	font-size: 36px;
+	font-weight: 400;
+	color: #cc9900;
+	font-family: 'Yeseva One', cursive;
+	padding-bottom: 20px;
+}
+.dis-name-price h4{
+	font-size: 21px;
+	font-weight: 400;
+	color: #cc9900;
+	font-family: 'Yeseva One', cursive;
+	padding-top: 10px;
+}
+.dis-name-price{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title{
+	text-align: left;
+    width: 100%;
+    text-align: center;
+}
+.price{
+	text-align: right;
+    width: 100%;
+    text-align: center;
+}
+.dis-discript p{
+	font-weight: 400;
+	font-size: 16px;
+	color: #4c4c4c;
+	font-family: 'Lato', sans-serif;
+	padding: 5px 0;
+}
+.gap{
+	padding-top: 50px;
+}
+/*dishes part end*/
+
+/*reviews part start*/
+#reviews{
+	background-image: url(../images/g-review.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+}
+.carousel-inner{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: white;
+	padding: 80px 85px 100px;
+}
+.reviews-heading h4{
+	font-weight: 400;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+}
+.reviews-heading img{
+	padding: 20px 0;
+}
+.carousel-item p{
+	font-weight: 700;
+	font-size: 21px;
+	font-family: 'Gentium Book Basic', serif;
+	line-height: 30px;
+}
+.carousel-item span{
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+/*reviews part end*/
+
+/*contact part start*/
+#contact{
+	background-image: url(../images/right-food-overlay.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+.main-contact{
+	text-align: center;
+}
+.contact-content{
+	padding: 0 50px;
+}
+.contact-heading h4{
+	color: #c9a131;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: 'Yeseva One', cursive;
+}
+.contact-content p{
+	font-weight: 400;
+	font-size: 16px;
+	color: #4c4c4c;
+	line-height: 30px;
+	font-family: 'Lato', sans-serif;
+}
+.contact-form{
+	padding: 0 50px;
+}
+form label{
+	color: #c9a131;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 0;
+}
+form input{
+	border: 1px solid #c9a131;
+	padding-left: 10px;
+	color: #7c7c7c;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	height: 53px;
+	width: 222px;
+}
+form input::placeholder{
+	color: #7c7c7c;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
+.button-div{
+	padding-top: 30px;
+	text-align: center;
+}
+.button-div input{
+	background-color: #c9a131;
+	padding: 12px 60px;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	transition: all linear .3s;
+}
+.button-div input:hover{
+	background-color: #242424;
+	transition: all linear .3s;
+	border: 1px solid #242424;
+}
+/*contact part end*/
+
+/*footer part start*/
+footer{
+	background-color: #191919;
+	color: white;
+	text-align: center;
+	padding: 60px 0;
+}
+.footer-heading h4{
+	font-weight: 400;
+	font-size: 21px;
+	font-family: 'Yeseva One', cursive;
+}
+.footer-heading img{
+	padding: 15px 0;
+}
+.footer-content p{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	font-weight: 400;
+}
+.footer-card{
+	padding-top: 60px;
+}
+.footer-icon{
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	padding-top: 60px !important;
+}
+.footer-icon li a{
+	color: white !important;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0 10px;
+	transition: all linear .3s;
+}
+.footer-icon li a:hover{
+	color: #cc9900 !important;
+	transition: all linear .3s;
+}
+/*footer part end*/
